@@ -63,7 +63,7 @@ body {
     float: right;
     width: 400px;
     background-color: rgba(0,0,0,0.09);
-    height: 25%;
+    height: auto;
     border-radius: 10px;
     padding: 10px 10px; 
 

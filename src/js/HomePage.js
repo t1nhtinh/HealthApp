@@ -48,7 +48,7 @@ function selectPage(){
         form.action = "#"; //Trainer
    }
    else if (accountType == 3) {
-        form.action = "doctorHome.html"; //doctor
+        form.action = "./src/html/doctorHome.html"; //doctor
    }
 
 }
