@@ -1,28 +1,4 @@
-﻿/**
-
-    https://code.tutsplus.com/tutorials/30-css-best-practices-for-beginners--net-6741 
-    Good CSS practices 
-    1) css reset: allows layout to be consistent in all browsers 
-    2) organize top-down structure 
-        a. generic classes (body, a, p, h1)
-        b. header 
-        c. nav-menu 
-        d. main-content 
-    3) combine elements 
-    4) create HTML first 
-    5) use multiple classes 
-    6) add comments
-    7) block elements: div, h1...h6, p, ul, li, table, blockquote, pre, form 
-    8) inline or block elements: span, a, strong, em, img, br, input, abbr, acronym 
-    9) alphabetize properties 
-    10) css compress 
-    11) to center layouts use margin: 0 auto //top, btm- and left, right values respectively 
-    12) use absolute sparingly 
-    13) use text-transform 
-    14) use ems over pixels to specify font size due to its scalabilty 
-    15) Add margins and paddings to all // * { margin: 0; padding: 0}
-*/
-
+﻿
 * {
     box-sizing: border-box
 }

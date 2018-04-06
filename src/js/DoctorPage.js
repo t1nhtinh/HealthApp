@@ -1,38 +1,4 @@
-﻿/* Name: Tinh Dang
- * Filename: DoctorPage.js
- * Description: javascipt to program behavior of doctor's page
- */
-
- /*
-
- JS TODO:
-            1) Clicking on patient shows:
-            https://www.w3schools.com/howto/howto_css_cards.asp
-                a) patient picture
-                b) patient stats <-- record of each time patient came into get a checkup
-                    i) add an update button here/does not overwrite!!! every update should have a date
-                c) allergys
-                d) comments/Notes Sections -> should send notification to client/provider
-                    https://www.w3schools.com/howto/howto_js_todolist.asp
-                e) Readiness
-                d) documents/physical test 
-                f) add skill bar?? progress bar?? 
-                g) patients appointment button
-                    i) allows docotors to create appointment, after submit updates doctor calender                
-
-            2) Add in calender 
-                a) daily, weekly, monthly, yearly
-                b) appointments 
-                         
-            3) Request Appointment 
-            4) Search function filter by:
-                a) name
-                b) specialization 
-            5) Upcoming will have the next appointment for patients only 
-            6) filtering https://www.w3schools.com/howto/howto_js_portfolio_filter.asp
- */                
-
-
+﻿
  var messages = []; //array to hold record of each string in chat
  var lastUserMessage = ''; 
  var inputValue, dateValue, defaultText, tr, td, li, textNode, tableRows;
