@@ -16,15 +16,17 @@ header {
     text-align: center;
     height: 350px; 
     overflow: auto;
+    width: 100%; 
+    margin: auto; 
 }
 
 /* Create three equal columns that floats next to each other */
 .column_doc {
-    float: left;
-    width:  100%;
+    width:  auto;
     padding: 15px;
     background-color: white;
     text-align: center; 
+    margin: auto;
 }
 
 .column_doc h5 {
@@ -46,7 +48,7 @@ header {
      text-align: left;
      padding: 0px 20px; 
  }
- 
+
 header img{
     height:20vw;
     width:60%;   
