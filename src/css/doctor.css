@@ -27,6 +27,26 @@ header {
     text-align: center; 
 }
 
+.column_doc h5 {
+
+    text-align: center;
+    border-bottom: 1px solid rgba(111, 118, 120, 0.744); 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ }
+ 
+ .column_doc h5 span { 
+     background:white; 
+     padding:0 10px; 
+ }
+ 
+ .column_doc p {
+     font-size: 12px; 
+     font-style: 'Time New Romen';
+     text-align: left;
+     padding: 0px 20px; 
+ }
+ 
 header img{
     height:20vw;
     width:60%;   
