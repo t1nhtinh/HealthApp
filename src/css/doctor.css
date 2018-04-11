@@ -11,11 +11,20 @@ header {
 
 }
 
-cal_table {
+.cal_table {
+    display: block;  
+    text-align: center;
+    height: 350px; 
+    overflow: auto;
+}
 
-    display: block; 
-    border: 1px solid black; 
-    text-align:center;
+/* Create three equal columns that floats next to each other */
+.column_doc {
+    float: left;
+    width:  100%;
+    padding: 15px;
+    background-color: white;
+    text-align: center; 
 }
 
 header img{
